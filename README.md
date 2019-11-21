@@ -16,4 +16,4 @@
 ### （2）主界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userManage.png)
 ### （3）用户管理界面(如下图所示)
-![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userManage.png)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userList.png)
