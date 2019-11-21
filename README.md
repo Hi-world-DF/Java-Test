@@ -10,6 +10,18 @@
 * 后端框架：EasyUI
 * 开发工具：IntelliJ_IDEA
 > 工具下载地址：<https://github.com/Hi-world-DF/JD_tools>
+## 目前项目进度：
+### 已完成功能--->
+* 实现登陆验证
+* 实现数据库用户列表的查询
+* 实现列表分页功能
+*****
+### 待完成功能--->
+* 实现用户添加功能
+* 实现用户删除功能
+* 实现用户编辑功能
+* 根据条件查询。。。
+
 ## 目前项目截图（未完待续。。。）
 ### （1）登陆界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/login.png)
