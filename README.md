@@ -15,9 +15,9 @@
 * 实现登陆验证
 * 实现数据库用户列表的查询
 * 实现列表分页功能
+* 实现用户添加功能
 *****
 #### 待完成功能--->
-* 实现用户添加功能
 * 实现用户删除功能
 * 实现用户编辑功能
 * 根据条件查询。。。
@@ -29,3 +29,5 @@
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/index.png)
 ### （3）用户管理界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userList.png)
+### （4）用户添加界面(如下图所示)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/addUser.png)
