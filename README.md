@@ -30,4 +30,4 @@
 ### （3）用户管理界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userList.png)
 ### （4）用户添加界面(如下图所示)
-![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/addUser.png)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/add.png)
