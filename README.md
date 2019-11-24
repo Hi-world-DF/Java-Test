@@ -17,10 +17,11 @@
 * 实现数据库用户列表的查询
 * 实现列表分页功能
 * 实现用户添加功能(会提示添加失败或者成功;用户列表自动刷新)
+* 实现用户删除功能(可以批量删除，有提示)
+* 实现用户编辑功能(会提示编辑失败或者成功;用户列表自动刷新)
 *****
 #### 待完成功能--->
-* 实现用户删除功能
-* 实现用户编辑功能
+
 * 根据条件查询
 * 用户权限问题
 
@@ -33,3 +34,5 @@
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userList.png)
 ### （4）用户添加界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/add.png)
+### （5）用户编辑界面(如下图所示)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/edit.png)
