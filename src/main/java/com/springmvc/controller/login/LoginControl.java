@@ -24,7 +24,6 @@ public class LoginControl {
     @Autowired
     private UserService userService;
     private boolean date;
-
     @RequestMapping("/gotoLoginPage")
     public String gotoLoginPage(HttpServletRequest request){
         return "login/login";
@@ -41,4 +40,13 @@ public class LoginControl {
         }
         return modelAndView;
     }
+
+    @RequestMapping("/gotoMainPage")
+    public ModelAndView gotoUserManage(HttpServletRequest request){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("login/index");
+        return modelAndView;
+    }
+
 }
+

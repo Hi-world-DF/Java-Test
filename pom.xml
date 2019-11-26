@@ -94,6 +94,11 @@
           <artifactId>mybatis-spring</artifactId>
           <version>1.2.2</version>
       </dependency>
+      <dependency>
+        <groupId>com.github.pagehelper</groupId>
+        <artifactId>pagehelper</artifactId>
+        <version>5.0.4</version>
+      </dependency>
       <!-- mysql驱动包 -->
       <dependency>
           <groupId>mysql</groupId>

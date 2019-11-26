@@ -20,7 +20,7 @@
     <title>登陆</title>
     <style>
         body{
-            background-image: url("images/loginBG.jpg");
+            background-image: url("<%=path %>/images/loginBG.jpg");
             background-repeat: no-repeat;
         }
         .loginForm{
@@ -33,7 +33,7 @@
 </head>
 <body>
 <div class="login">
-    <form class="loginForm" name="login" action="login/loginCheck"  method="post">
+    <form class="loginForm" name="login" action="<%=path %>/login/loginCheck"  method="post">
         <div class="form-group">
             <span>${msg1}</span><br>
             <label for="username">UserName</label>

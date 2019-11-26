@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path=request.getContextPath();
+    String username=request.getParameter("username");
     String basePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 <html>
@@ -16,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="<%=path %>/css/bootstrap-theme.css">
     <script type="text/javascript" src="<%=path %>/js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="<%=path %>/js/bootstrap.js"></script>
-    <title>首页</title>
+    <title>大数据中心</title>
     <style>
         body {
             width: 100%;
@@ -26,13 +27,7 @@
             background-color: #FFFFFF;
             font-family: "Microsoft YaHei", sans-serif;
         }
-        .pageSidebar{
-            width: 240px;
-            height:100%;
-            padding-bottom: 30px;
-            overflow: auto;
-            background-color: #e3e3e3;
-        }
+
         .splitter {
             width: 5px;
             height: 100%;
@@ -42,16 +37,7 @@
             overflow: hidden;
             background-color: #fbfbfb;
         }
-        .pageContent{
-            height: 100%;
-            min-width: 768px;
-            left: 246px;
-            top: 0;
-            right: 0;
-            z-index: 3;
-            padding-bottom: 30px;
-            position: absolute;
-        }
+
         .pageContainer{
             bottom: 0;
             left:0;
@@ -60,6 +46,24 @@
             overflow: auto;
             position: absolute;
             width: 100%;
+        }
+        .pageContent{
+            height: 100%;
+            min-width: 808px;
+            left: 206px;
+            top: 0;
+            right: 0;
+            z-index: 3;
+            padding-bottom: 30px;
+            position: absolute;
+        }
+        .pageSidebar{
+            width: 200px;
+            height:100%;
+            padding-bottom: 30px;
+            font-size: 18px;
+            overflow: auto;
+            background-color: #fbfbfb;
         }
         .footer {
             width: 100%;
@@ -71,7 +75,7 @@
             bottom: 0;
             position: absolute;
             z-index: 10;
-            background-color: #8085a6;
+            background-color: #3632FE;
         }
         .navbar-collapse{
             padding-left: 5px;
@@ -85,7 +89,7 @@
             margin: 0 5px;
         }
         .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-            background-color: #010101;
+            background-color: #3632fe;
         }
         .dropdown-menu{
             min-width: 200px;
@@ -99,19 +103,19 @@
 </head>
 <body>
     <!--顶部导航栏部分-->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" title="logoTitle" href="#">大数据中心</a>
+                <a class="navbar-brand" title="logoTitle" href="<%=path %>/login/loginCheck" style="font-size: 30px;margin-left: 2px"><b>大数据中心</b></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation">
-                        <a href="#">当前用户：<span class="badge">TestUser</span></a>
+                        <a href="#">当前用户：<span class="badge"><%=username %></span></a>
                     </li>
                     <li>
-                        <a href="/login/gotoLoginPage">
-                            <span class="glyphicon glyphicon-lock"></span>退出登录</a>
+                        <a href="<%=path %>/login/gotoLoginPage">
+                            退出登录</a>
                     </li>
                 </ul>
             </div>
@@ -123,10 +127,10 @@
         <div class="pageSidebar">
             <ul class="nav nav-stacked nav-pills">
                 <li role="presentation">
-                    <a href="/user/gotoUserManage" target="mainFrame" >用户管理</a>
+                    <a href="<%=path %>/user/gotoUserManage" target="mainFrame" >用户管理</a>
                 </li>
                 <li role="presentation">
-                    <a href="nav2.html" target="mainFrame">建筑管理</a>
+                    <a href="<%=path %>/archi/gotoArchiManage" target="mainFrame">建筑管理</a>
                 </li>
                 <li role="presentation">
                     <a href="nav3.html" target="mainFrame">网格管理</a>
@@ -140,7 +144,7 @@
         <div class="splitter"></div>
         <!-- 正文内容部分 -->
         <div class="pageContent">
-            <iframe src="/user/gotoUserManage" id="mainFrame" name="mainFrame" frameborder="0" width="100%"  height="100%" frameBorder="0"></iframe>
+            <iframe src="<%=path %>/login/gotoMainPage" id="mainFrame" name="mainFrame" frameborder="0" width="100%"  height="100%" ></iframe>
         </div>
     </div>
     <!-- 底部页脚部分 -->

@@ -7,7 +7,7 @@
     <result column="password" property="password" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, username, password
+    id, username, password , state
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -69,9 +69,34 @@
     where id = #{id,jdbcType=INTEGER}
   </update>
 
-
   <select id="checkUser" resultType="com.springmvc.entity.User" parameterType="String">
-        select id,username,password from user where username=#{username}
+        select id,username,password,state from user where username=#{username}
   </select>
+
+<!--  条件查询用户列表-->
+  <select id="getUserList" resultType="com.springmvc.entity.User">
+        select id,username,password,state from user
+  </select>
+<!--保存用户信息-->
+  <insert id="saveUserInfo" parameterType="com.springmvc.entity.User" >
+    insert into user (username, password,state)
+    values ( #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},#{state,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateUserInfo" parameterType="com.springmvc.entity.User" >
+    update user
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      state = #{state,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <delete id="deleteUserInfoByIds" parameterType="Integer[]" >
+    delete from user
+    <where>
+      id
+      <foreach collection="array" item="id" open="in(" close=")" separator=",">
+        #{id}
+      </foreach>
+    </where>
+  </delete>
 
 </mapper>

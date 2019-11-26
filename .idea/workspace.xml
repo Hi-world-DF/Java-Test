@@ -64,27 +64,33 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/css/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.springmvc.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\js" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\css\images" />
       <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\images" />
-      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\styles" />
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp" />
       <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\css" />
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\js" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\css" />
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp" />
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\js" />
       <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\images" />
+      <recent name="E:\IntelliJ_IDEA\IdeaProjects\hello\src\main\webapp\styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,6 +304,21 @@
       <workItem from="1573518948471" duration="5901000" />
       <workItem from="1573527931508" duration="3736000" />
       <workItem from="1573532110622" duration="9718000" />
+      <workItem from="1573566586285" duration="174000" />
+      <workItem from="1573605537538" duration="1183000" />
+      <workItem from="1573644075232" duration="194000" />
+      <workItem from="1573778586776" duration="13400000" />
+      <workItem from="1573884625425" duration="599000" />
+      <workItem from="1574037914710" duration="703000" />
+      <workItem from="1574254516205" duration="7812000" />
+      <workItem from="1574296554694" duration="5303000" />
+      <workItem from="1574308297423" duration="7114000" />
+      <workItem from="1574320223325" duration="820000" />
+      <workItem from="1574321125027" duration="5029000" />
+      <workItem from="1574330596333" duration="3344000" />
+      <workItem from="1574475005296" duration="10177000" />
+      <workItem from="1574557950457" duration="6949000" />
+      <workItem from="1574673249619" duration="1522000" />
     </task>
     <servers />
   </component>

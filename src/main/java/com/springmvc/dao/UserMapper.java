@@ -2,6 +2,8 @@ package com.springmvc.dao;
 
 import com.springmvc.entity.User;
 
+import java.util.List;
+
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -17,4 +19,15 @@ public interface UserMapper {
 
     public User checkUser(String name);
 
+    //获取用户列表
+    public List<User> getUserList();
+
+    //保存用户数据
+    public void saveUserInfo(User user);
+
+    //修改对象数据
+    public void updateUserInfo(User user);
+
+    //（批量）删除用户数据
+    public void deleteUserInfoByIds(Integer[] id);
 }

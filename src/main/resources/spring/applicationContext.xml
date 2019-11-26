@@ -91,7 +91,19 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="mapperLocations" value="classpath:sqlmap/*Mapper.xml"/>
         <property name="typeAliasesPackage" value="com.springmvc.entity" />
-
+        <!--引入插件-->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <value>
+                            <!-- 这里设定你的数据库类型 -->
+                            helperDialect=mysql
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
     </bean>
 
     <!-- 在spring容器中配置mapper的扫描器产生的动态代理对象在spring的容器中自动注册，bean的id就是mapper类名（首字母小写）-->
