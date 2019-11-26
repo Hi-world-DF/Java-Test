@@ -1,5 +1,5 @@
-# Java-Test
-后台管理系统（练习小项目）
+# Java-Test(持续更新中)
+SSM后台管理系统（Java练习小项目）
 ## 项目环境
 * JDK：jdk1.8.0_45
 * TOMCAT:apache-tomcat-8.5.16
