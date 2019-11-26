@@ -37,6 +37,6 @@
 ### （2）主界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/index.png)
 ### （3）用户管理界面(如下图所示)
-![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userList.png)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userManage.png)
 ### （4）用户编辑/添加界面类似(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/addAndEdit.png)
