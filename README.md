@@ -41,10 +41,11 @@ SSM后台管理系统（Java练习小项目）
 ### （1）登陆界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/login.png)
 ### （2）主界面(如下图所示)
-![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/index.png)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/mian.png)
 ### （3）用户管理界面(如下图所示)
-![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userManage1.png)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userManage.png)
 ### （4）用户编辑/添加界面类似(如下图所示)
-![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/addAndEdit1.png)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/editUser.png)
 ## 订单管理
-
+### （1）订单管理界面(如下图所示)
+![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/orderManage.png)
