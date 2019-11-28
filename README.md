@@ -11,7 +11,7 @@ SSM后台管理系统（Java练习小项目）
 * 开发工具：IntelliJ_IDEA
 > 工具下载地址：<https://github.com/Hi-world-DF/JD_tools>
 ### 目前项目进度：
-#### 1.用户管理
+### 1.用户管理
 **要求：** 能对用户列表进行展现，能对用户进行增删改查操作。   
 **使用的技术：** EasyUI、Bootstrap、SSM、maven等
 #### 已完成功能--->
@@ -30,8 +30,11 @@ SSM后台管理系统（Java练习小项目）
 * 界面的美化（前端）  
 > 目前的用户管理代码已经全部上传，界面如下面图示
 
+### 2.订单管理
+
 
 ## 目前项目截图（未完待续。。。）
+## 用户管理
 ### （1）登陆界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/login.png)
 ### （2）主界面(如下图所示)
@@ -40,3 +43,5 @@ SSM后台管理系统（Java练习小项目）
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/userManage1.png)
 ### （4）用户编辑/添加界面类似(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/addAndEdit1.png)
+## 订单管理
+
