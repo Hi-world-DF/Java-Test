@@ -48,5 +48,5 @@ SSM后台管理系统（Java练习小项目）
 ### （4）用户编辑/添加界面类似(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/editUser.png)
 ## 订单管理
-### （1）订单管理界面(如下图所示)
+### （5）订单管理界面(如下图所示)
 ![](https://github.com/Hi-world-DF/Java-Test/blob/master/imgs/orderManage.png)
